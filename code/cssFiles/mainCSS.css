@@ -1,0 +1,118 @@
+/*Styling for Development */
+/*div {
+  border: 3px solid #54ff9f;
+  padding: 3px;
+  margin: 3px;
+}*/
+
+/*Main site styling*/
+body {
+  color: #e3ebeb;
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  color: #cdd0d7;
+}
+
+.center {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+a:link {
+  /*color: #000000; this isnt working*/
+  /*background: #fff;*/
+}
+
+a:hover {
+  color: ;
+}
+
+a:visited {
+  color: ;
+}
+
+.dark {
+  background-color: #062a39;
+}
+
+.light {
+  background-color: #123645;
+}
+
+/*navigation styling*/
+div.navigation > ul > li {
+  display: inline;
+  padding-right: 10px;
+}
+
+div.navigation > ul {
+  float: right;
+}
+
+.title {
+  float: left;
+}
+
+#header {
+  height: 50px;
+}
+
+/*main content styling*/
+/*Jumbo styling*/
+.deals {
+  float: left;
+}
+
+.introduction: {
+  float: right;
+}
+
+/*main opening times stying*/
+.times > h2 {
+  text-align: center;
+}
+
+.times > ul > li {
+  display: block;
+}
+.today {
+  color: #aeeeee;
+}
+
+/*main contact times styles*/
+.contact > h2 {
+  text-align: center;
+}
+
+/*main order now button style*/
+.ordernow > a {
+  display: block;
+  text-align: center;
+}
+
+/*footer Styling*/
+/*make the font size smaller using em*/
+/*opening times*/
+.openingtimes > ul > li {
+  display: inline;
+}
+/*contact*/
+
+/*sitemap*/
+.sitemap > ul > li {
+  display: inline;
+}
+
+/*copyright*/
+.copyright > h4 {
+  text-align: center;
+}
