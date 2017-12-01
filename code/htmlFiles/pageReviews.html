@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Bootstrap CDN  -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--links to my CSS  -->
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" type="text/css" href="../cssFiles/reviewsCSS.css">
+    <link rel="stylesheet" type="text/css" href="../cssFiles/restCSS.css">
+
+  </head>
+  <body>
+    <div id="reviews">
+      <div class="dark revStats">
+        <ul class="starGraph">
+          <li>
+            5<div class="bar" id="onestar"></div>
+            <span class="startotal">(100)</span>
+          </li>
+          <li>
+            4<div class="bar" id="twostar"></div>
+            <span class="startotal">(50)</span>
+          </li>
+          <li>
+            3<div class="bar" id="threestar"></div>
+            <span class="startotal">(20)</span>
+          </li>
+          <li>
+            2<div class="bar" id="fourstar"></div>
+            <span class="startotal">(10)</span>
+          </li>
+          <li>
+            1<div class="bar" id="fivestar"></div>
+            <span class="startotal">(5)</span>
+          </li>
+        </ul>
+      </div>
+      <div class="averageStar dark">
+        <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+      </div>
+      <div class="bestReview dark">
+        <h2>&quot;This is the first sentence of the best review!&quot;</h2>
+      </div>
+      <div class="light">
+        <form>
+      <div class="form-group">
+        <label for="reviews">Tell us what you think:</label>
+        <input type="reviews" class="form-control" id="review" placeholder="Say it like you mean it!">
+      </div>
+      <div class="ratingStars">
+        <ul class="center">
+          <li>Quality : <span class="rating"> &#9734; &#9734; &#9734; &#9734; &#9734;</span></li>
+          <li>Value : <span class="rating"> &#9734; &#9734; &#9734; &#9734; &#9734;</span></li>
+          <li>Service : <span class="rating"> &#9734; &#9734; &#9734; &#9734; &#9734;</span></li>
+        </ul>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <div class="prevReviews dark">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Filter Reviews
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+              <ul class="center">
+                <li class="dropdown-item"><a href="">Most Recent</a></li>
+                <div class="divider"></div>
+                <li class="dropdown-item"><a href="">Rating High to Low</a></li>
+                <div class="divider"></div>
+                <li class="dropdown-item"><a href="">Rating Low to High</a></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="center">
+            <li>The food is super special awesome and gives me farts of joy. I loved the curried cheeseburgers
+              </br><span class="prevRev name">Joe bloggs</span> <span class="prevRev date">about 1 day ago</span> <span class="prevRev rating">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+            </br><div class="underline center"></div>
+            </li>
+            <li>The food is super special awesome and gives me farts of joy. The stirfry has so much taste it blows my mind, well the taste or the msg either way who cares I love it!!
+              </br><span class="prevRev name">Joe bloggs</span> <span class="prevRev date">about 1 day ago</span> <span class="prevRev rating">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+            </br><div class="underline center"></div>
+            </li>
+            <li>The food is super special awesome and gives me farts of joy! The curry in a naan bread is ingenious, I have no idea how they stop it getting soggy!
+              </br><span class="prevRev name">Joe bloggs</span> <span class="prevRev date">about 1 day ago</span> <span class="prevRev rating">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+            </br><div class="underline center"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

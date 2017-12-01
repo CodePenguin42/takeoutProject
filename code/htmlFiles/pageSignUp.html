@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- scripts, stylesheets, font imports -->
+    <meta charset = "UTF-8">
+    <!--Bootstrap CDN  -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="../cssFiles/resetCSS.css">
+    <link rel="stylesheet" type="text/css" href="../cssFiles/signUpCSS.css">
+    <title>Nameless takeout resturant online order site</title>
+  </head>
+  <body>
+    <div id="signUp" class="dark">
+      <h2>Sign Up to Order</h2>
+      <h3>Already a member? <a href="pageSignIn.html">Sign In</a> here.</h3>
+  <form>
+  <div class="form-group">
+    <label for="userName">Name*</label>
+    <input type="name" class="form-control" id="getName" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="userEmail">Email address*</label>
+    <input type="email" class="form-control" id="getEmail" placeholder="Enter email">
+    <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="userPostcode">Postcode*</label>
+    <input type="postcode" class="form-control" id="getPostcode" placeholder="Postcode">
+  </div>
+  <div class="form-group">
+    <label for="user">Password*</label>
+    <input type="password" class="form-control" id="getPassword" placeholder="Password">
+    <small id="password" class="form-text text-muted">Your password must contain at least 8 characters and the tears of a mermaid.</small>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      I agree to the Terms and Conditions
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+  </body>
+</html>
