@@ -1,0 +1,89 @@
+/*Styling for Development */
+/*div {
+  border: 3px solid #54ff9f;
+  padding: 3px;
+  margin: 3px;
+}*/
+
+/*Main site styling*/
+body {
+  color: #e3ebeb;
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  color: #cdd0d7;
+}
+
+.center {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+a:link {
+  /*color: #000000; this isnt working*/
+  /*background: #fff;*/
+}
+
+a:hover {
+  color: ;
+}
+
+a:visited {
+  color: ;
+}
+
+.dark {
+  background-color: #062a39;
+}
+
+.light {
+  background-color: #123645;
+}
+
+/*main opening times stying*/
+.times > h2 {
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.times > ul > li {
+  display: block;
+  line-height: 1.4em;
+}
+.today {
+  color: #aeeeee;
+}
+
+/*main contact us styles*/
+.contact > h2 {
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.contact > ul > li {
+  line-height: 1.4em;
+}
+
+/*map placeholder Styles*/
+.placeholder {
+  height: 500px;
+  width: 550px;
+  display: block;
+  margin: 0 auto;
+}
+
+#mapinsert > h2 {
+  font-size: 1.4em;
+  text-align: center;
+  padding-bottom: 40px;
+}
