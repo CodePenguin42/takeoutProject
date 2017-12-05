@@ -1,0 +1,32 @@
+/*Project styling*/
+body {
+  color: #e3ebeb;
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Links Styling*/
+
+/*Font Styling and relative sizes*/
+
+
+.center {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+/*build SASS so that site owner can control colour scheme with a simple platform*/
+
+.dark {
+  background-color: #062a39;
+}
+
+.light {
+  background-color: #123645;
+}

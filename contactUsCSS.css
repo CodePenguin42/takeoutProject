@@ -1,0 +1,39 @@
+/*main opening times stying*/
+.times > h2 {
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.times > ul > li {
+  display: block;
+  line-height: 1.4em;
+}
+.today {
+  color: #aeeeee;
+}
+
+/*main contact us styles*/
+.contact > h2 {
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.contact > ul > li {
+  line-height: 1.4em;
+}
+
+/*map placeholder Styles*/
+.placeholder {
+  height: 500px;
+  width: 550px;
+  display: block;
+  margin: 0 auto;
+}
+
+#mapinsert > h2 {
+  font-size: 1.4em;
+  text-align: center;
+  padding-bottom: 40px;
+}

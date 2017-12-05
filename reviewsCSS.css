@@ -1,0 +1,108 @@
+/*star graph styling*/
+.starGraph > li {
+  font-size: 1.2em;
+}
+
+.starTotal {
+  font-size: 0.7 em;
+}
+
+.bar {
+  height: 5px;
+  width: 100px;
+  background-color: #ffd700;
+  display: inline-block;
+}
+
+#onestar {
+  width: 100px;
+}
+#twostar {
+  width: 50px;
+}
+#threestar {
+  width: 20px;
+}
+#fourstar {
+  width: 10px;
+}
+#fivestar {
+  width: 5px;
+}
+
+/*average start rating thing*/
+.averageStar {
+  text-align: center;
+}
+
+.averageStar > p {
+  font-size: 8em;
+  color: #ffd700;
+}
+
+.bestReview {
+  text-align: center;
+  font-size: 3em;
+  padding: 20px 0px;
+}
+
+/*Styling the stars themselves*/
+.rating {
+  font-size: 1.2em;
+  color: #ffd700;
+}
+
+/*Star Ratings CSS*/
+.ratingStars > ul > li {
+  display: inline;
+  font-size: 1.4em;
+  padding-right: 100px;
+}
+
+.ratingStars > ul > li:last-child {
+  padding-right: 0px;
+}
+
+.form-group > label {
+  line-height: 2em;
+  font-size: 1.4em;
+}
+
+/*Previous Reviews*/
+/*review filter*/
+
+.dropdown {
+  float: right;
+}
+
+.dropdown-menu {
+  text-align: right;
+}
+
+/*want left aligned text with centered ul*/
+.prevReviews > ul > li {
+  padding: 20px 0px;
+  font-size: 1.2em
+}
+
+.prevReviews > ul > li:first-child {
+  padding-top: 40px;
+}
+.prevReviews > ul > li:last-child {
+  padding-bottom: 40px;
+}
+
+.prevReviews > ul > li:last-child >.underline {
+  display: none;
+}
+
+.prevRev {
+  font-size: 0.7em;
+}
+
+.underline {
+  height: 1px;
+  width: 40%;
+  border: solid 1px #cdd0d7;
+  margin-top: 40px;
+}

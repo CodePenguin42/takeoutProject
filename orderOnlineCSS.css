@@ -1,0 +1,12 @@
+/*Title Styling*/
+.title {
+  font-size: 4em;
+  text-align: center;
+  display: block;
+  padding-top: 35px;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
