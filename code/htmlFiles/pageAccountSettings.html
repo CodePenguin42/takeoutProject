@@ -16,40 +16,54 @@
 
     <link rel="stylesheet" type="text/css" href="../cssFiles/_resetCSS.css">
     <link rel="stylesheet" type="text/css" href="../cssFiles/projectCSS.css">
-    <link rel="stylesheet" type="text/css" href="../cssFiles/signUpCSS.css">
+    <link rel="stylesheet" type="text/css" href="../cssFiles/accountSettingsCSS.css">
     <title>Nameless takeout resturant online order site</title>
   </head>
   <body>
-    <div id="signUp" class="dark">
-      <h2>Sign Up to Order</h2>
-      <h3>Already a member? <a href="pageSignIn.html">Sign In</a> here.</h3>
-  <form>
-  <div class="form-group">
-    <label for="userName">Name*</label>
-    <input type="name" class="form-control" id="getName" placeholder="Name">
-  </div>
-  <div class="form-group">
-    <label for="userEmail">Email address*</label>
-    <input type="email" class="form-control" id="getEmail" placeholder="Enter email">
-    <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="userPostcode">Postcode*</label>
-    <input type="postcode" class="form-control" id="getPostcode" placeholder="Postcode">
-  </div>
-  <div class="form-group">
-    <label for="user">Password*</label>
-    <input type="password" class="form-control" id="getPassword" placeholder="Password">
-    <small id="password" class="form-text text-muted">Your password must contain at least 8 characters and the tears of a mermaid.</small>
-  </div>
-  <div class="form-check">
-    <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      I agree to the Terms and Conditions
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    <div id="accountSettings">
+      <div class="addresses" class="dark">
+        <div class="addNew address boxes"></div>
+        <div class="deliveryAdd address boxes">
+          <ul class="center">
+            <li class="delivery">Delivery Address</li>
+            <li class="title">Mr Joe Bloggs</li>
+            <li class="firstLine">1,369,545 Alpha Century Way</li>
+            <li class="townCity">Western Arm, Milky Way</li>
+            <li class="country">England</li>
+            <li class="postCode">NMX XTT</li>
+            <li class="phoneNumber">07887555333</li>
+            <li class="editDelete"><a href="">Edit</a> &vert; <a href="">Delete</a></li>
+          </ul>
+        </div>
+        <div class="billingAdd address boxes">
+          <ul class="center">
+            <li class="billing">Billing Address</li>
+            <li class="title">Mr Joe Bloggs</li>
+            <li class="firstLine">1,369,545 Alpha Century Way</li>
+            <li class="townCity">Western Arm, Milky Way</li>
+            <li class="country">England</li>
+            <li class="postCode">NMX XTT</li>
+            <li class="phoneNumber">07887555333</li>
+            <li class="editDelete"><a href="">Edit</a> &vert; <a href="">Delete</a></li>
+          </ul>
+        </div>
+        <div class="address boxes">
+          <ul class="center">
+            <li class="title">Mr Joe Bloggs</li>
+            <li class="firstLine">1,369,545 Alpha Century Way</li>
+            <li class="townCity">Western Arm, Milky Way</li>
+            <li class="country">England</li>
+            <li class="postCode">NMX XTT</li>
+            <li class="phoneNumber">07887555333</li>
+            <li class="editDelete"><a href="">Edit</a> &vert; <a href="">Delete</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cards" class="light">
+        <div class="addNew card boxes"></div>
+        <div class="cardDetails card boxes"></div>
+        <div class="card boxes"></div>
+      </div>
     </div>
   </body>
 </html>
