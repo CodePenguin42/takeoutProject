@@ -1,0 +1,122 @@
+/*Title Styling*/
+.title {
+  font-size: 4em;
+  text-align: center;
+  display: block;
+  padding-top: 35px;
+}
+
+/*navigation styling*/
+div.navigation > ul > li {
+  display: inline;
+  padding-right: 15px;
+  font-size: 1.2em;
+}
+
+div.navigation > ul {
+  float: right;
+}
+
+#header {
+  height: 140px;
+}
+
+/*main content styling*/
+/*Jumbo styling*/
+.deals {
+  float: left;
+}
+
+.introduction: {
+  float: right;
+}
+
+.introduction > h3 {
+  color: #cdd0d7;
+  font-size: 2em;
+}
+
+/*main order now button style*/
+.ordernow {
+  display: block;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.ordernow > a {
+  display: inline;
+}
+
+.btn {
+  background-color: #ffd700;
+  text-transform: uppercase;
+  font-size: 3em;
+  padding: 8px 40px;
+  border-radius: 50px;
+}
+
+/*main opening times stying*/
+.times > h2 {
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.times > ul > li {
+  display: block;
+  line-height: 1.4em;
+}
+.today {
+  color: #aeeeee;
+}
+
+/*main contact us styles*/
+.contact > h2 {
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.contact > ul > li {
+  line-height: 1.4em;
+}
+
+/*footer Styling*/
+#footer {
+  padding: 40px 0px;
+}
+
+#footer > * {
+  font-size: 0.8em;
+  line-height: 2.4em;
+}
+
+/*opening times*/
+.openingtimes > ul > li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.openingtimes > ul > li:last-child {
+  padding-right: 0px;
+}
+
+/*contact*/
+.contactinfo > ul > li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.contactinfo > ul > li:last-child {
+  padding-right: 0px;
+}
+/*sitemap*/
+.sitemap > ul > li {
+  display: inline;
+
+}
+
+/*copyright*/
+.copyright > h4 {
+  text-align: center;
+}

@@ -1,0 +1,69 @@
+/*boxes styling*/
+.boxes {
+  height: 220px;
+  width: 300px;
+  display: inline-block;
+  border: 2px solid #ffd700;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.addNew {
+  border-style: dashed;
+}
+
+/*Addresses styling*/
+.title {
+  font-weight: bold;
+}
+
+.deliveryAdd > ul {
+  margin: 7px auto;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.deliveryAdd > ul > li{
+  padding: 4px 0px;
+  display: block;
+}
+
+.deliveryAdd > ul > li:first-child {
+  border-bottom: 1px solid #ffd700;
+  width: 100%;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.billingAdd > ul {
+  margin: 7px auto;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.billingAdd > ul > li{
+  padding: 4px 0px;
+  display: block;
+}
+
+.billingAdd > ul > li:first-child {
+  border-bottom: 1px solid #ffd700;
+  width: 100%;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.address > ul {
+  margin: 7px auto;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.address > ul > li{
+  padding: 4px 0px;
+  display: block;
+}
+
+
+
+/*card styling*/
